@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-center {
+  display: grid;
+  place-items: center;
+  min-height: 50vh;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  text-transform: capitalize;
+  color: rgb(28, 124, 131);
+}
+label {
+  text-transform: capitalize;
+}
+input {
+  width: 50px;
+  height: 20px;
+}
+input::placeholder {
+  color: rgb(50, 28, 247);
+  font-size: 15px;
+}
+button {
+  width: 80px;
+  height: 25px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(86, 156, 161);
+}
+.paragraph{
+    margin-bottom: 1em;
+}
+.lorem-text{
+    width: 600px;
+    height: auto;
+    padding: 20px;
+  
+}
